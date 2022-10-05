@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  outline: none;
+  border: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,300&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f5f7;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 100%;
+  height: 860px;
+}
+.container .row {
+  width: 80%;
+  height: 720px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+.container .row .left-bar {
+  width: 95%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.container .row .left-bar .logo {
+  width: 100%;
+  height: 106px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 60px;
+}
+.container .row .left-bar .logo img {
+  width: 301px;
+  height: 100%;
+}
+.container .left-bar .text p {
+  font-size: 28px;
+  color: #1c1e21;
+  font-weight: 300;
+}
+.container .right-bar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.container .right-bar .auot {
+  width: 75%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 10px 15px 24px 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.container .right-bar .auot form {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.container .right-bar .auot form input {
+  width: 100%;
+  height: 52px;
+  border-radius: 6px;
+  font-size: 17px;
+  border: 1px solid #dddfe2;
+  padding: 14px 16px;
+  color: #1d2129;
+}
+.container .right-bar .auot form input:focus {
+  border-color: #1877f2;
+}
+.auot a:hover {
+  text-decoration: underline;
+  text-decoration-color: #1877f2;
+}
+
+.container .right-bar .auot button {
+  width: 100%;
+  height: 48px;
+  background-color: #1877f2;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 6px;
+}
+.container .right-bar .auot button:hover {
+  background-color: #166fe5;
+}
+.container .right-bar .auot button.sign-up {
+  width: 50%;
+  background-color: #42b72a;
+  max-width: 200px;
+  font-size: 17px;
+  border-color: #1877f2;
+}
+.container .right-bar .auot button.sign-up:hover {
+  background-color: #36a420;
+}
+
+.container .right-bar .auot hr {
+  width: 100%;
+  height: 1px;
+  background-color: #dadde1;
+  margin: 20px 16px;
+}
+.container .right-bar .auot a {
+  font-size: 14px;
+  color: #1877f2;
+  font-weight: 500px;
+  text-align: center;
+}
+.container .right-bar .rightunder p {
+  width: 100%;
+  height: 100%;
+  color: #1e1c21;
+}
+.container .right-bar .rightunder {
+  width: 100%;
+  height: 18px;
+  margin-top: 28px;
+  text-align: center;
+}
+.container .right-bar .rightunder a {
+  color: #1c1e21;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 0;
+}
+.container .right-bar .rightunder a:hover {
+  text-decoration: underline;
+}
+/*------Footer-----*/
+.footer {
+  width: 100%;
+  height: 25%;
+  padding-top: 20px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  overflow: hidden;
+}
+.footer .top-footer {
+  width: 70%;
+  height: 28px;
+}
+.footer .top-footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer .top-footer ul li {
+  margin-left: 20px;
+}
+.footer .top-footer ul li:first-child a {
+  /* footer satır başı*/
+  color: #737373;
+  cursor: text;
+}
+.footer .top-footer ul li:first-child {
+    margin-left: 0;
+}
+.footer .bottom-footer {
+  width: 70%;
+  height: 60px;
+}
+.footer .bottom-footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  line-height: 1.6;
+  margin-left: -20px;
+}
+.footer .bottom-footer ul li {
+    margin-left: 20px;
+    line-height: 18px;
+    
+  }
+.footer .bottom-footer ul li a {
+  color: #8a8d91;
+  font-size: 12px;
+}
+.footer .top-footer ul li a {
+    color: #8a8d91;
+    font-size: 12px;
+  }
+.line {
+  border-bottom: 1px solid #dddfe2;
+  font-size: 1px;
+  height: 8px;
+  width: 70%;
+  margin-bottom: 8px;
+}
+.footer .under-date{
+    width: 70%;
+    height: 20px;
+    margin: 20px 0px;
+    text-align: start;
+    font-size: 10px;
+    color: #8a8d91;
+}
+
+@media screen and (max-width:1180px) {
+    .container .row{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .footer .top-footer{
+        width: 90%;
+    }
+    .footer .bottom-footer{
+        width: 90%;
+    }
+    .footer .line{
+        width: 90%;
+    }
+}
+@media screen and (max-width:960px) {
+    .container .row .right-bar .auot .sign-up button{
+        width: 100%;
+        max-width: 300px;
+    }
+    .container .row .right-bar .auot .sign-up{
+        width: 70%;
+    }
+    .footer{
+        display: none;
+    }
+    .container{
+        height: 100%;
+    }
+    .container .row{
+        height: 100%;
+    }
+}
+@media screen and (max-width:860px) {
+    .container .row{
+        grid-template-columns: repeat(1,1fr);
+        padding: 0;
+    }
+    .container .row .left-bar{
+        display: none;
+    }
+}
+
+/* .container .footer  {
+  background-color: #fff;
+  padding: 20px 15%;
+  font-size: 14px;
+  color: #737373;
+}
+.container .footer a{
+    color: #737373;
+}
+.container .footer .in-row .page-footer {
+  color: #737373;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.container .footer .top-footer ul {
+  display: flex;
+  word-spacing:15px;
+}
+.container .footer .bottom-footer ul {
+    display: flex;
+    word-spacing:15px;
+  }
+.line {
+  border-bottom: 1px solid #dddfe2;
+  font-size: 1px;
+  height: 8px;
+  margin-bottom: 8px;
+  word-spacing: 15px;
+}
+.container .footer .under-date{
+    font-size:smaller;
+} */
