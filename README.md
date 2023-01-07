@@ -1,4 +1,4 @@
-# Facebook_clone
+# Social_Media_clone
 
 ![image](https://user-images.githubusercontent.com/105509750/194315789-8d6e66b6-ba3e-4f55-b198-9cab7051fff0.png)
 
